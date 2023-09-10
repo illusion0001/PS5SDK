@@ -211,7 +211,7 @@ _Fn_(uint64_t   , sceKernelDebugAcquireAndUpdateDebugRegister,  void);
 _Fn_(uint64_t   , sceKernelDebugGetAppStatus,                   void);
 _Fn_(uint64_t   , sceKernelDebugGetPauseCount,                  void);
 _Fn_(uint64_t   , sceKernelDebugGpuPaDebugIsInProgress,         void);
-_Fn_(uint64_t   , sceKernelDebugOutText,                        void);
+_Fn_(uint64_t   , sceKernelDebugOutText,                        int, const char*);
 _Fn_(uint64_t   , sceKernelDebugRaiseException,                 void);
 _Fn_(uint64_t   , sceKernelDebugRaiseExceptionOnReleaseMode,    void);
 _Fn_(uint64_t   , sceKernelDebugRaiseExceptionWithContext,      void);
